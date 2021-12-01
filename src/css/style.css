@@ -1,0 +1,41 @@
+body {
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+    background-image: url('../img/background-image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+.main-page {
+    position: fixed;
+    left: 50%;  /* The lower this number the further left on the page the div is */
+    top: 50%;  /* The lower this number the higher up on the page the div is.  Don't go below 40 */
+    transform: translate(-50%, -50%);
+}
+
+.main-title {
+    font-family: montserat, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    font-size: 4em;
+    line-height: 1em;
+}
+
+.main-subtitle {
+    font-family: Futura, sans-serif;
+    font-size: 1.2em;
+    line-height: 1em;
+}
+
+.button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
