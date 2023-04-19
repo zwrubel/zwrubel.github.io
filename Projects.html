@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="Zach Wrubel's Website">
+        <meta name="author" content="Zach Wrubel">
+
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Zach Wrubel">
+        <meta property="og:description" content="Zach Wrubel's Website">
+        
+        <title>Projects: Zach Wrubel</title>
+
+        <!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        
+        <!-- Other CSS -->
+        <link rel="stylesheet" href="https://use.typekit.net/auq7xjt.css">
+        <link rel="stylesheet" href="src/css/style.css">
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="aboutme.html">About me</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <div class="container">
+            <!-- <div class="main-page"> -->
+                <div class="center">
+                    <div class="overflow-y-scroll" id="project-page">
+                        <h1 id="project-page" style="font-weight: 1000"><strong>Projects</strong></h1>
+                        <p>Below are various projects I've completed over the course of my degree.</p>
+                        <hr>
+                        <div id="AirportSimulator">
+                            <h2><strong>Airport Simulator</strong></h2>
+                            <p>Spring 2023</p>
+                            <ul>
+                                <li>Program that simulates & tracks flights between airports.</li>
+                                <li>Can book flights for travelers and keep track of who is on which flight and where each flight is going.</li>
+                                <li>Written in Python, the program can be imported as a package and run in a jupyter nutebook or can be run from the command line.</li>
+                                <li>Uses several patterns of Object Oriented Programming including: </li>
+                                <ul>
+                                    <li>Strategy Pattern</li>
+                                    <li>Singleton Pattern</li>
+                                    <li>Observer Pattern</li>
+                                    <li>Decorator Pattern</li>
+                                </ul>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div id="ConnectFourAlgorithms">
+                            <h2><strong>Connect Four with Alpha-Beta Pruning and A-Star</strong></h2>
+                            <p>Fall 2022</p>
+                            <ul>
+                                <li>Simulates games of ConnectFour with various player strategies, including strategies derived from selecting moves randomly, and selecting moves with various algorithms.</li>
+                                <li>Algorithms used to simulate a player's strategy include:</li>
+                                <ul>
+                                    <li>MiniMax algorithm</li>
+                                    <li>MiniMax algorithm with Alpha-Beta Pruning</li>
+                                    <li>A-Star algorithm with AB Pruning</li>
+                                </ul>
+                                <li>Uses Jupyter Notebooks to implement algorithms studied in several classes including Intro to Artificial Intelligence, Algorithms, & Data Science with Probability and Statistics.</li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div id="Shell Terminal">
+                            <h2><strong>Shell Terminal</strong></h2>
+                            <p>Fall 2021</p>
+                            <ul>
+                                <li>This was a program that I created in C as part of a class project that simulates a simple shell terminal.</li>
+                                <li>The code simulates common commands that a user types into a terminal.  It simulates simple commands like ls, pwd, cd, and others.</li>
+                                <li>It is able to use the custom terminal to modify the contents of the current working directory.</li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div id="Math Whiz-ard">
+                            <h2><strong>Math Whiz-ard</strong></h2>
+                            <p>Summer 2021</p>
+                            <ul>
+                                <li>Designed & developed web app allowing young users to practice and improve skills on a variety of basic math problems.</li>
+                                <li>Managed five-person team working with agile/scrum methodologies to meet deadlines on time.</li>
+                                <li>Programmed using CSS, JavaScript, HTML and more. Deployed on Heroku utilizing Docker containers.</li>
+                                <li>Website no longer running due to costs.</li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div id="MiniGit">
+                            <h2><strong>MiniGit</strong></h2>
+                            <p>Spring 2021</p>
+                            <ul>
+                                <li>Created a local version control system in C++ for managing changes to a repository.</li>
+                                <li>Developed system to track historical changes made to any type of files and revert to specific versions in the repository.</li>
+                                <li>Runs within local directory and is able to make changes to the current working directory.</li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div id="Covid-19 Tracker">
+                            <h2><strong>Covid-19 Tracker</strong></h2>
+                            <p>March-November 2020</p>
+                            <ul>
+                                <li>I made this project during lockdown in the pandemic.  It tracks and visualizes the spread of Covid-19 using datasets provided by Johns Hopkins.</li>
+                                <li>Since it's made in Python, the program is able to be imported as a package and run in a jupyter notebook.  This can be used to create pdfs of customized graphs and data related to the spread of Covid-19 in the US.</li>
+                            </ul>
+                        </div>  
+                    </div>
+                </div>
+            <!-- </div> -->
+        </div>
+
+        <!-- Footer -->
+        <footer class="page-footer font-small fixed-bottom">
+            <div class="p-6 text-right">
+                <div class="footer-copyright text-center py-3">
+                    &copy; 2023 copyright: <a href="mailto:zachwrubel@gmail.com" style="color:white;font-weight:bold;">Zach Wrubel</a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </body>
+</html>

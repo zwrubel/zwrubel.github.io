@@ -1,3 +1,7 @@
+html {
+    overflow-y: scroll;
+}
+
 body {
     height: 100%;
     overflow: hidden;
@@ -38,4 +42,19 @@ body {
     cursor: pointer;
     overflow: hidden;
     outline: none;
+}
+
+#aboutme{
+    color: black;
+    background-color: white;
+    /* border-radius: 25px; */
+    /* background-size:  */
+}
+
+#project-page{
+    left: 75%;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: white;
 }
